@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
         "projectName": "CrudWithAspNet",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EF.Core.Repository": {
+              "target": "Package",
+              "version": "[1.0.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
