@@ -8,7 +8,7 @@ using EF.Core.Repository.Manager;
 
 namespace CrudWithAspNet.Manager
 {
-    public class PostManager : CommonManager<Post>, IPostManager
+    public class PostManager : CommonManager<User_Info>, IPostManager
     {
         public PostManager(ApplicationDbContext _dbContext) : base(new PostRepository(_dbContext))
         {

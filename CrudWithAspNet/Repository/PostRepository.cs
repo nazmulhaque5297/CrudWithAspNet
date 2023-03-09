@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CrudWithAspNet.Repository
 {
-    public class PostRepository : CommonRepository<Post>, IPostRepository
+    public class PostRepository : CommonRepository<User_Info>, IPostRepository
     {
         public PostRepository(ApplicationDbContext dbContext) : base(dbContext)
         {

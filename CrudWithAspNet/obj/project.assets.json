@@ -3753,19 +3753,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
       "projectName": "CrudWithAspNet",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\CrudWithAspNet.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\CrudWithAspNet\\CrudWithAspNet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3833,7 +3833,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,19 +16,19 @@ namespace CrudWithAspNet.Controllers
         }
 
         [HttpPost]
-        public Post Add(Post post)
+        public User_Info Add(User_Info post)
         {
             post.CreatedDate= DateTime.Now;
-            _dbContext.Post.Add(post);
+            _dbContext.User_Info.Add(post);
             bool isSaved = _dbContext.SaveChanges() > 0;
             return isSaved?post: null;
 
         }
 
         [HttpGet] 
-        public List<Post> GelAllData()
+        public List<User_Info> GelAllData()
         {
-            var posts = _dbContext.Post.ToList();
+            var posts = _dbContext.User_Info.ToList();
             return posts;
         }
     }
